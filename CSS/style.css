@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "averta cy w10"; 
+    box-sizing: border-box;
+}
+*::selection{
+    color: #fff;
+    background-color: black;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;  
+}
+#home{
+    text-decoration: none;
+    width: 100%;
+    min-height: 100vh;
+}
+#nav{
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+#nav .img  h3{
+
+   text-decoration: none;
+   color: #000;
+   
+}
+#nav .right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+#nav .right a{
+    
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+
+}
+#nav .right i {
+    margin-top: 5px;
+    font-size: 20px;
+}
+#maincontent{
+    line-height: 1;
+    width: 100%;
+    height: 100%;
+    padding: 6vw 17vw;
+    width: 100%;
+    font-size: 7vw;
+    font-weight: 400;
+    word-spacing: -1vw;
+    
+}
+#servicemaincontent{
+    line-height: 1;
+    width: 100%;
+    height: 100%;
+    padding: 6vw 17vw;
+    width: 100%;
+    font-size: 7vw;
+    font-weight: 400;
+    word-spacing: -1vw;
+    
+}
+#maincontent span video{
+    display: inline-block;
+    width: 12vw;
+    height: 7.5vw;
+    border-radius: 70px;
+    margin-bottom: -15px;
+    
+}
+#maincontent2 video{
+    margin-top: 6vw;
+    width: 100%;
+    height: 100%;
+}
+#home #homemain{
+    margin-top: 7vw;
+    width: 100%;
+    padding: 5vw 17vw;
+
+}
+#homemain .heading{
+    margin-top: 0px;
+    display: flex;
+    gap: 30px;
+}
+
+#homemain h3{
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-size: 1.4vw;
+}
+#homemain .heading h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #3f3f3f;
+    font-size: 8vw;
+    margin-top: 0px;
+    font-weight: 900;
+    letter-spacing: -5px;
+    line-height: 1;
+}
+#homemain .heading h1:hover{
+    color: black;
+}
+#homelast {
+    padding: 5vw 17vw;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+
+}
+#homelast p{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+#part{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 5vw 17vw;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+    gap: 180px;
+    
+}
+#parts{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0 17vw;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+    gap: 180px;
+    margin-bottom: 15vw;
+}
+#partss{
+    margin-top: 6vw;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0 17vw;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1;
+    gap: 180px;
+    margin-bottom: 10vw;
+    background-color: #010001;   
+    color: #fff;
+}
+#partss #part1 p{ 
+    font-weight: 100;
+    font-size: 1.8vw;
+}
+#part1{
+    width: 100%;
+}
+
+#part1 p{
+    font-size: 2vw;
+    margin: 10px;
+    font-weight: 300;
+}
+
+#partss #part2 video{
+    height: 50vw;
+ }
+
+#part2 video{
+    width: 100%;
+    height: 100%;
+   
+}
+#featured{
+    padding: 10vw 17vw;
+}
+#featured .fheading>h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+#featured .fheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #3f3f3f;
+}
+#featuredimg{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vw;
+}
+#fleft{
+    overflow: hidden;
+    width: 45%;
+   height: inherit;
+
+}
+.fleftlm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+    line-height: 1;
+}
+.fleftlm h1{
+    font-size: 2vw;
+    margin: 1.5vw 0;
+    font-weight: 700;
+}
+.fleftlm h3{
+   font-size: 1.5vw;
+   font-weight: 400;
+}
+.fleftlm h4{
+    font-size: 1vw;
+    font-weight: 400;
+    color: #a5a5a5;
+}
+#fright{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+#fright .images{
+    width: 90%;
+    height: 90%;
+}
+#fright .images img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.btndiv{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btndiv button{
+    padding: 1vw 2.4vw;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1vw;
+    font-weight: 500;
+}
+#dev{
+    width: 100%;
+    padding: 5vw 17vw;
+}
+#dev h1{
+    font-size: 3vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+}
+#dev p{
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    font-weight: 300;
+    width: 60%;
+}
+#slides{
+    gap: 30px;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+#slides .slide{
+    width: 50%;
+}
+.slide .img{
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #f3f3f3;
+    margin: 10px 0;
+    font-size: 1vw;
+}
+#footerup{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#fimgs{
+    width: 65%;
+}
+#ftext{
+    width: 35%;
+    margin-left: 30px;
+ 
+}
+#ftext h1{
+   font-size: 3vw;
+   font-weight: 400;
+   line-height: 1;
+}
+#ftext p{
+    margin-top: 15px;
+    font-size: 1vw;
+    font-weight: 400;
+}
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-top: 5vw;
+}
+#future video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#ftexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 9999;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+}
+
+#ftexts h1{
+    font-weight: 400;
+}
+
+#ftexts button{ 
+    padding: .8vw 1.7vw;
+    font-size: 1vw;
+    margin-top: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+}
